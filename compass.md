@@ -22,3 +22,32 @@ per controllare che la vostra logica sui prezzi funzioni correttamente, provate 
 100km, 10 anni => prezzo corretto:  €16.80
 100km, 70 anni => prezzo corretto: €12.60
 
+
+# Struttura
+
+// Prompt1: quanti chilometri devi percorrere?
+//  prendiamo questo imput e trasformiamolo nella variabile (let) trattaKm
+// e converti in float (ci servono tassativamente le virgole) 
+
+// Prompt2: quanti anni hai?
+//  prendiamo questo inpunt e trasformiamolo nella variabile (let) etaAnni
+// e converti in float (ci servono tassativamente le virgole) 
+
+
+// const prezzoKm = 0.21
+// let prezzoTratta = prezzoKm * trattaKm
+
+// e fin qua tutto bene.
+
+// sconto: da applicare SE si rientra nella fascia eta'
+
+// IF etaAnni <18, allora sconto 20% di valore da prezzoTratta
+// ELSE IF etaAnni >= 65, allora sconto 40% di valore da prezzoTratta
+// ELSE 0
+
+// prezzo finale = prezzoTratta - sconto
+// n.b.: METTI SOLO DUE VALORI DOPO VIRGOLA
+
+
+
+prezzoBiglietto = 
