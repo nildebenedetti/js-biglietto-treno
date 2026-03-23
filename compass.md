@@ -49,5 +49,3 @@ per controllare che la vostra logica sui prezzi funzioni correttamente, provate 
 // n.b.: METTI SOLO DUE VALORI DOPO VIRGOLA
 
 
-
-prezzoBiglietto = 

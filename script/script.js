@@ -1,12 +1,15 @@
 // Prompt1: quanti chilometri devi percorrere?
-//  prendiamo questo imput e trasformiamolo nella variabile (let) trattaKm
+//  prendiamo questo imput e trasformiamolo nella variabile trattaKm
 // e converti in float (ci servono tassativamente le virgole) 
+
+// accetto di proposito anche valori con la virgola, non si sa mai che becchiamo qualche precisino
 
 const trattaKm = parseFloat(prompt('quanti chilometri devi percorrere (inserire solo valore numerico)?', '10'));
 console.log(trattaKm);
 
 // Prompt2: quanti anni hai?
-//  prendiamo questo inpunt e trasformiamolo nella variabile (let) etaAnni
-// e converti in float (ci servono tassativamente le virgole) 
+//  prendiamo questo inpunt e trasformiamolo nella variabile etaAnni
+// e converti in Integer (calcoliamo sui compleanni festeggiati) 
 
-
+const etaAnni = parseInt(prompt('quanti anni hai(inserire solo valore numerico', '18'));
+console.log(etaAnni);
