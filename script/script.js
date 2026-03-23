@@ -28,16 +28,13 @@ const prezzoTratta = prezzoKm * trattaKm;
 let sconto = 0;
 
 if (etaAnni < 18) {
-    sconto = prezzoTratta *0.2;
+    sconto = prezzoTratta * 0.2;
 }
 
 else if (etaAnni >= 65) {
     sconto = prezzoTratta * 0.4;
 }
 
-else {
-    sconto = 0;
-}
 
 
 // prezzo finale = prezzoTratta - sconto
