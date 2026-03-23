@@ -28,13 +28,18 @@ console.log(prezzoTratta);
 
 // sconto: da applicare SE si rientra nella fascia eta'
 
+let sconto = 0;
 
 if (etaAnni < 18) {
-    let sconto = (prezzoTratta / 100 ) * 20;
+    sconto = (prezzoTratta / 100 ) * 20;
 }
-else if (etaAnni>= 65) {
-    let sconto = (prezzoTratta / 100) *40;
+
+else if (etaAnni >= 65) {
+    sconto = (prezzoTratta / 100) *40;
 }
+
 else {
-    let sconto = 0;
+    sconto = 0;
 }
+
+console.log(sconto);
