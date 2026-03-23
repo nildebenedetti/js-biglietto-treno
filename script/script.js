@@ -1,3 +1,5 @@
+'strict';
+
 // Prompt1: quanti chilometri devi percorrere?
 //  prendiamo questo imput e trasformiamolo nella variabile trattaKm
 // e converti in float (ci servono tassativamente le virgole) 
@@ -13,3 +15,13 @@ console.log(trattaKm);
 
 const etaAnni = parseInt(prompt('quanti anni hai(inserire solo valore numerico', '18'));
 console.log(etaAnni);
+
+
+// dichiariamo e assegnamo una variabile per il prezzo di viaggio al km
+
+const prezzoKm = 0.21;
+
+// creiamo ora una variabile per il prezzo al variare della tratta
+
+const prezzoTratta = prezzoKm * trattaKm;
+console.log(prezzoTratta);
