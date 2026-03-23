@@ -43,3 +43,12 @@ else {
 }
 
 console.log(sconto);
+
+// prezzo finale = prezzoTratta - sconto
+
+prezzoBiglietto = prezzoTratta - sconto;
+
+// stampa in cionsole un valore sensato:
+
+console.log(`Il prezzo da saldare è di €${prezzoBiglietto.toFixed(2)}`);
+
